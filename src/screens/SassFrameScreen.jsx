@@ -9,7 +9,7 @@ import { MessageButton } from '../components/MessageButton'
 function SasFrameScreen() {
   return (
     <div>
-      <Navbar/>
+    
 
       <div className='container mx-auto my-5 border-b flex justify-between items-center py-4'>
       <div className='p-2 md:p-0 flex items-center gap-4 '>
@@ -96,7 +96,7 @@ function SasFrameScreen() {
 
           </div>
 
-          <div className='w-full'>
+          <div className=''>
           <div className="w-full">
 
           <Input label="Search list" icon={<FaSearch/>} />

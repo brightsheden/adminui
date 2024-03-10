@@ -9,6 +9,8 @@ import {
 import AdminDashboardScreen from './screens/AdminScreen.jsx';
 import TransfersScreen from './screens/TransfersScreen.jsx';
 import SasFrameScreen from './screens/SassFrameScreen.jsx';
+import ListScreen from './screens/ListScreen.jsx';
+import PricingScreen from './screens/PricingScreen.jsx';
 
 
 const router = createBrowserRouter([
@@ -19,7 +21,29 @@ const router = createBrowserRouter([
       {
         path: "/admin/transfers",
         element: <TransfersScreen/>,
-      }
+        
+      },
+
+      {
+        path: "/admin/sasframe",
+        element: <SasFrameScreen/>,
+        
+      },
+
+      {
+        path: "/admin/list",
+        element: <ListScreen/>,
+        
+      },
+
+      {
+        path: "/admin/pricing",
+        element: <PricingScreen/>,
+        
+      },
+      
+      
+      
     ]
   },
 
