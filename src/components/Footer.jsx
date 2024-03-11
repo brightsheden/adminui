@@ -7,7 +7,7 @@ function Footer() {
           <footer className="footer p-10 bg-white text-base-content">
     <aside>
       
-      <h2 className='font-bold text-2xl text-green-800'>Go Fund Me</h2>
+      <h2 className='font-bold text-2xl text-purple-800'>Brand Name</h2>
     </aside> 
     <nav>
       <h6 className="footer-title">Services</h6> 
@@ -35,9 +35,7 @@ function Footer() {
 
   <div className='container mx-auto '>
     <div className='flex items-center justify-between'>
-        <div> 
-            <button className='btn'>select language</button>
-        </div>
+      
 
         <div className='flex justify-around gap-4'>
             <FaFacebook/>
