@@ -12,6 +12,7 @@ import SasFrameScreen from './screens/SassFrameScreen.jsx';
 import ListScreen from './screens/ListScreen.jsx';
 import PricingScreen from './screens/PricingScreen.jsx';
 import ContactScreen from './screens/ContactScreen.jsx';
+import BillingScreen from './screens/BillingScreen.jsx';
 
 
 const router = createBrowserRouter([
@@ -47,6 +48,12 @@ const router = createBrowserRouter([
       {
         path: "/admin/contacts",
         element: <ContactScreen/>,
+        
+      },
+
+      {
+        path: "/admin/billing",
+        element: <BillingScreen/>,
         
       },
       
